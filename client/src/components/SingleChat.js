@@ -15,7 +15,7 @@ import animationData from "../animations/typing.json";
 import io from "socket.io-client";
 import UpdateGroupChat from "./dashboard/UpdateGroupChat";
 import { ChatState } from "../Context/ChatProvider";
-const ENDPOINT = "https://reactmessenger-app.herokuapp.com/"; 
+const ENDPOINT = "https://mern-messenger-app-glqq.onrender.com"; 
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
