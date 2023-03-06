@@ -48,6 +48,7 @@ app.use(errorHandler);
 const port = process.env.PORT || 5000;
 const server = app.listen(port,console.log(`server is listening on port ${port}`));
 const base_url = process.env.REACT_APP_API_URI
+//REACT_APP_API_URI="http://localhost:3000"
 
 const io = require("socket.io")(server, {
   pingTimeout: 60000, 
