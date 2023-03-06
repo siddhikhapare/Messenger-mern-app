@@ -24,7 +24,7 @@ Change it after deployment as per your url.
 ``` javascript
 const ENDPOINT = "http://localhost:5000";
 //After deployment
-// "https://react-mern-messengerapp.herokuapp.com";
+// "https://######.onrender.com";
 
 ```
 
