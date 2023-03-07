@@ -15,7 +15,7 @@ import animationData from "../animations/typing.json";
 import io from "socket.io-client";
 import UpdateGroupChat from "./dashboard/UpdateGroupChat";
 import { ChatState } from "../Context/ChatProvider";
-const ENDPOINT = "https://mernmessengerapp.onrender.com"; 
+const ENDPOINT = "http://localhost:5000"; 
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
